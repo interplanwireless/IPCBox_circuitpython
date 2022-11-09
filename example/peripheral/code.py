@@ -22,8 +22,8 @@ while True:
         print("LEDR On")
         print("LEDG Off")
     else:               # LED制御
-        ib.ledg_on()        # 緑LED Off(D200)
-        ib.ledr_off()       # 赤LED On(D201)
+        ib.ledg_off()       # 緑LED Off(D200)
+        ib.ledr_on()        # 赤LED On(D201)
         print("LEDR Off")
         print("LEDG On")
         
